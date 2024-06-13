@@ -10,7 +10,7 @@ const ElectionsPage = async () => {
   let error;
 
   try {
-    const res = await fetch("http://localhost:3000/api/summary", {
+    const res = await fetch("https://indiaelects.vercel.app/api/summary", {
       next: { revalidate: 3600 }, // Revalidate cache every hour
     });
     if (!res.ok) {
