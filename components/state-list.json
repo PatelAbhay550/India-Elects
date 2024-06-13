@@ -1,0 +1,382 @@
+[
+    {
+        "STATE": "All India",
+        "SHORT_NAME": "IN",
+        "STATE_CODE": "IN",
+        "SCALE": 800,
+        "CENTER": [
+            83,
+            23
+        ]
+    },
+    {
+        "STATE": "Andaman and Nicobar Islands",
+        "SHORT_NAME": "AN",
+        "STATE_CODE": "U01",
+        "SCALE": 1000,
+        "CENTER": [
+            92.6,
+            10.5
+        ]
+    },
+    {
+        "STATE": "Andhra Pradesh",
+        "SHORT_NAME": "AP",
+        "STATE_CODE": "S01",
+        "SCALE": 1500,
+        "CENTER": [
+            80.8,
+            16
+        ]
+    },
+    {
+        "STATE": "Arunachal Pradesh",
+        "SHORT_NAME": "AR",
+        "STATE_CODE": "S02",
+        "SCALE": 2500,
+        "CENTER": [
+            94.7,
+            28
+        ]
+    },
+    {
+        "STATE": "Assam",
+        "SHORT_NAME": "AS",
+        "STATE_CODE": "S03",
+        "SCALE": 1800,
+        "CENTER": [
+            92.9,
+            26
+        ]
+    },
+    {
+        "STATE": "Bihar",
+        "SHORT_NAME": "BR",
+        "STATE_CODE": "S04",
+        "SCALE": 2000,
+        "CENTER": [
+            86,
+            25
+        ]
+    },
+    {
+        "STATE": "Chandigarh",
+        "SHORT_NAME": "CH",
+        "STATE_CODE": "U02",
+        "SCALE": 16000,
+        "CENTER": [
+            76.7,
+            30.7
+        ]
+    },
+    {
+        "STATE": "Chhattisgarh",
+        "SHORT_NAME": "CG",
+        "STATE_CODE": "S26",
+        "SCALE": 1500,
+        "CENTER": [
+            81.8,
+            21
+        ]
+    },
+    {
+        "STATE": "Dadar and Nagar Haveli",
+        "SHORT_NAME": "DN",
+        "STATE_CODE": "U03",
+        "SCALE": 22000,
+        "CENTER": [
+            73,
+            20.2
+        ]
+    },
+    {
+        "STATE": "Daman and Diu",
+        "SHORT_NAME": "DD",
+        "STATE_CODE": "U04",
+        "SCALE": 5000,
+        "CENTER": [
+            72,
+            20
+        ]
+    },
+    {
+        "STATE": "Delhi",
+        "SHORT_NAME": "DL",
+        "STATE_CODE": "U05",
+        "SCALE": 15000,
+        "CENTER": [
+            77.1,
+            28.7
+        ]
+    },
+    {
+        "STATE": "Goa",
+        "SHORT_NAME": "GA",
+        "STATE_CODE": "S05",
+        "SCALE": 9000,
+        "CENTER": [
+            74,
+            15.5
+        ]
+    },
+    {
+        "STATE": "Gujarat",
+        "SHORT_NAME": "GJ",
+        "STATE_CODE": "S06",
+        "SCALE": 1500,
+        "CENTER": [
+            71,
+            22
+        ]
+    },
+    {
+        "STATE": "Haryana",
+        "SHORT_NAME": "HR",
+        "STATE_CODE": "S07",
+        "SCALE": 2500,
+        "CENTER": [
+            76,
+            29.5
+        ]
+    },
+    {
+        "STATE": "Himachal Pradesh",
+        "SHORT_NAME": "HP",
+        "STATE_CODE": "S08",
+        "SCALE": 2500,
+        "CENTER": [
+            77,
+            32
+        ]
+    },
+    {
+        "STATE": "Jammu and Kashmir",
+        "SHORT_NAME": "JK",
+        "STATE_CODE": "S09",
+        "SCALE": 1500,
+        "CENTER": [
+            74.8,
+            32.7
+        ]
+    },
+    {
+        "STATE": "Jharkhand",
+        "SHORT_NAME": "JH",
+        "STATE_CODE": "S27",
+        "SCALE": 2500,
+        "CENTER": [
+            85,
+            23.6
+        ]
+    },
+    {
+        "STATE": "Karnataka",
+        "SHORT_NAME": "KA",
+        "STATE_CODE": "S10",
+        "SCALE": 1500,
+        "CENTER": [
+            75.7,
+            15
+        ]
+    },
+    {
+        "STATE": "Kerala",
+        "SHORT_NAME": "KL",
+        "STATE_CODE": "S11",
+        "SCALE": 2300,
+        "CENTER": [
+            76,
+            10.8
+        ]
+    },
+    {
+        "STATE": "Ladakh",
+        "SHORT_NAME": "LD",
+        "STATE_CODE": "U08",
+        "SCALE": 1500,
+        "CENTER": [
+            78.2,
+            34.2
+        ]
+    },
+    {
+        "STATE": "Lakshadeep",
+        "SHORT_NAME": "LD",
+        "STATE_CODE": "U06",
+        "SCALE": 3000,
+        "CENTER": [
+            73,
+            11
+        ]
+    },
+    {
+        "STATE": "Madya Pradesh",
+        "SHORT_NAME": "MP",
+        "STATE_CODE": "S12",
+        "SCALE": 1000,
+        "CENTER": [
+            78.6,
+            22.9
+        ]
+    },
+    {
+        "STATE": "Maharashtra",
+        "SHORT_NAME": "MH",
+        "STATE_CODE": "S13",
+        "SCALE": 1200,
+        "CENTER": [
+            75.7,
+            19.7
+        ]
+    },
+    {
+        "STATE": "Manipur",
+        "SHORT_NAME": "MN",
+        "STATE_CODE": "S14",
+        "SCALE": 4000,
+        "CENTER": [
+            93.9,
+            24.6
+        ]
+    },
+    {
+        "STATE": "Meghalaya",
+        "SHORT_NAME": "ML",
+        "STATE_CODE": "S15",
+        "SCALE": 4000,
+        "CENTER": [
+            91,
+            25
+        ]
+    },
+    {
+        "STATE": "Mizoram",
+        "SHORT_NAME": "MZ",
+        "STATE_CODE": "S16",
+        "SCALE": 2500,
+        "CENTER": [
+            92.9,
+            23
+        ]
+    },
+    {
+        "STATE": "Nagaland",
+        "SHORT_NAME": "NL",
+        "STATE_CODE": "S17",
+        "SCALE": 3500,
+        "CENTER": [
+            94,
+            26
+        ]
+    },
+    {
+        "STATE": "Odisha",
+        "SHORT_NAME": "OD",
+        "STATE_CODE": "S18",
+        "SCALE": 1500,
+        "CENTER": [
+            85,
+            20.9
+        ]
+    },
+    {
+        "STATE": "Puducherry",
+        "SHORT_NAME": "PY",
+        "STATE_CODE": "U07",
+        "SCALE": 8000,
+        "CENTER": [
+            79.8,
+            11.8
+        ]
+    },
+    {
+        "STATE": "Punjab",
+        "SHORT_NAME": "PB",
+        "STATE_CODE": "S19",
+        "SCALE": 2500,
+        "CENTER": [
+            75.2,
+            31
+        ]
+    },
+    {
+        "STATE": "Rajasthan",
+        "SHORT_NAME": "RJ",
+        "STATE_CODE": "S20",
+        "SCALE": 1000,
+        "CENTER": [
+            74,
+            27
+        ]
+    },
+    {
+        "STATE": "Sikkim",
+        "SHORT_NAME": "SK",
+        "STATE_CODE": "S21",
+        "SCALE": 7000,
+        "CENTER": [
+            88.5,
+            27.5
+        ]
+    },
+    {
+        "STATE": "Tamil Nadu",
+        "SHORT_NAME": "TN",
+        "STATE_CODE": "S22",
+        "SCALE": 2000,
+        "CENTER": [
+            78.4,
+            10.9
+        ]
+    },
+    {
+        "STATE": "Telangana",
+        "SHORT_NAME": "TS",
+        "STATE_CODE": "S29",
+        "SCALE": 2000,
+        "CENTER": [
+            79,
+            18
+        ]
+    },
+    {
+        "STATE": "Tripura",
+        "SHORT_NAME": "TR",
+        "STATE_CODE": "S23",
+        "SCALE": 5000,
+        "CENTER": [
+            91.9,
+            23.9
+        ]
+    },
+    {
+        "STATE": "Uttar Pradesh",
+        "SHORT_NAME": "UP",
+        "STATE_CODE": "S24",
+        "SCALE": 1200,
+        "CENTER": [
+            80.9,
+            27.8
+        ]
+    },
+    {
+        "STATE": "Uttarakhand",
+        "SHORT_NAME": "UK",
+        "STATE_CODE": "S28",
+        "SCALE": 2500,
+        "CENTER": [
+            79,
+            30
+        ]
+    },
+    {
+        "STATE": "West Bengal",
+        "SHORT_NAME": "WB",
+        "STATE_CODE": "S25",
+        "SCALE": 1700,
+        "CENTER": [
+            87.8,
+            24.5
+        ]
+    }
+]
