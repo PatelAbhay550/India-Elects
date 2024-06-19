@@ -1,0 +1,443 @@
+[
+    {
+        "AC_NO": "1",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Yuksom Tashiding",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "10",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Poklok-Kamrang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "11",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namchi-Singhithang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "12",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Melli",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "13",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namthang-Rateypani",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "14",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Temi-Namphing",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "15",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rangang-Yangang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "16",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Tumen-Lingi",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "17",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Khamdong-Singtam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "18",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "West Pendam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "19",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rhenock",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "2",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Yangthang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "20",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Chujachen",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "21",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gnathang-Machong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "22",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namcheybung",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "23",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Shyari",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "24",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Martam-Rumtek",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "25",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Upper Tadong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "26",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Arithang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "27",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gangtok",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "28",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Upper Burtuk",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "29",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Kabi Lungchuk",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "3",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Maneybong-Dentam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "30",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Djongu",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "31",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Lachen Mangan",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "4",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gyalshing-Barnyak",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "5",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rinchenpong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "6",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Daramdin",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "7",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Soreong-Chakung",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "8",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Salghari-Zoom",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "9",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Barfung",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "AC_NO",
+        "ST_CODE": "ST_CODE",
+        "ST_NAME": "ST_NAME",
+        "AC_NAME": "AC_NAME",
+        "Short_Name": "Short_Name"
+    },
+    {
+        "AC_NO": "1",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Yuksom Tashiding",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "10",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Poklok-Kamrang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "11",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namchi-Singhithang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "12",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Melli",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "13",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namthang-Rateypani",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "14",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Temi-Namphing",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "15",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rangang-Yangang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "16",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Tumen-Lingi",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "17",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Khamdong-Singtam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "18",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "West Pendam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "19",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rhenock",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "2",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Yangthang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "20",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Chujachen",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "21",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gnathang-Machong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "22",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Namcheybung",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "23",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Shyari",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "24",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Martam-Rumtek",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "25",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Upper Tadong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "26",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Arithang",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "27",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gangtok",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "28",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Upper Burtuk",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "29",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Kabi Lungchuk",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "3",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Maneybong-Dentam",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "30",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Djongu",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "31",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Lachen Mangan",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "4",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Gyalshing-Barnyak",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "5",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Rinchenpong",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "6",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Daramdin",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "7",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Soreong-Chakung",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "8",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Salghari-Zoom",
+        "Short_Name": "SK"
+    },
+    {
+        "AC_NO": "9",
+        "ST_CODE": "S21",
+        "ST_NAME": "SIKKIM",
+        "AC_NAME": "Barfung",
+        "Short_Name": "SK"
+    }
+]

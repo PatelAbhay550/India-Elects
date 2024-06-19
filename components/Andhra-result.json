@@ -1,0 +1,1227 @@
+[
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "1",
+        "AC_NAME": "Ichchapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "2",
+        "AC_NAME": "Palasa"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "3",
+        "AC_NAME": "Tekkali"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "4",
+        "AC_NAME": "Pathapatnam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "5",
+        "AC_NAME": "Srikakulam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "6",
+        "AC_NAME": "Amadalavalasa"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "7",
+        "AC_NAME": "Etcherla"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "8",
+        "AC_NAME": "Narasannapeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "9",
+        "AC_NAME": "Rajam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "10",
+        "AC_NAME": "Palakonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "11",
+        "AC_NAME": "Kurupam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "12",
+        "AC_NAME": "Parvathipuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "13",
+        "AC_NAME": "Salur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "14",
+        "AC_NAME": "Bobbili"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "15",
+        "AC_NAME": "Cheepurupalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "16",
+        "AC_NAME": "Gajapathinagaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "17",
+        "AC_NAME": "Nellimarla"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "18",
+        "AC_NAME": "Vizianagaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "19",
+        "AC_NAME": "Srungavarapukota"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "20",
+        "AC_NAME": "Bhimili"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "21",
+        "AC_NAME": "Visakhapatnam East"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "22",
+        "AC_NAME": "Visakhapatnam South"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "23",
+        "AC_NAME": "Visakhapatnam North"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "24",
+        "AC_NAME": "Visakhapatnam West"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "25",
+        "AC_NAME": "Gajuwaka"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "26",
+        "AC_NAME": "Chodavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "27",
+        "AC_NAME": "Madugula"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "28",
+        "AC_NAME": "Araku Valley"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "29",
+        "AC_NAME": "Paderu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "30",
+        "AC_NAME": "Anakapalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "31",
+        "AC_NAME": "Pendurthi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "32",
+        "AC_NAME": "Yelamanchili"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "33",
+        "AC_NAME": "Payakaraopet"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "34",
+        "AC_NAME": "Narsipatnam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "35",
+        "AC_NAME": "Tuni"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "36",
+        "AC_NAME": "Prathipadu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "37",
+        "AC_NAME": "Pithapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "38",
+        "AC_NAME": "Kakinada Rural"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "39",
+        "AC_NAME": "Peddapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "40",
+        "AC_NAME": "Anaparthy"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "41",
+        "AC_NAME": "Kakinada City"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "42",
+        "AC_NAME": "Ramachandrapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "43",
+        "AC_NAME": "Mummidivaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "44",
+        "AC_NAME": "Amalapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "45",
+        "AC_NAME": "Razole"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "46",
+        "AC_NAME": "Gannavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "47",
+        "AC_NAME": "Kothapeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "48",
+        "AC_NAME": "Mandapeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "49",
+        "AC_NAME": "Rajanagaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "50",
+        "AC_NAME": "Rajahmundry City"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "51",
+        "AC_NAME": "Rajahmundry Rural"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "52",
+        "AC_NAME": "Jaggampeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "53",
+        "AC_NAME": "Rampachodavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "54",
+        "AC_NAME": "Kovvur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "55",
+        "AC_NAME": "Nidadavole"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "56",
+        "AC_NAME": "Achanta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "57",
+        "AC_NAME": "Palacole"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "58",
+        "AC_NAME": "Narasapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "59",
+        "AC_NAME": "Bhimavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "60",
+        "AC_NAME": "Undi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "61",
+        "AC_NAME": "Tanuku"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "62",
+        "AC_NAME": "Tadepalligudem"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "63",
+        "AC_NAME": "Ungutur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "64",
+        "AC_NAME": "Denduluru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "65",
+        "AC_NAME": "Eluru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "66",
+        "AC_NAME": "Gopalapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "67",
+        "AC_NAME": "Polavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "68",
+        "AC_NAME": "Chintalapudi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "69",
+        "AC_NAME": "Tiruvuru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "70",
+        "AC_NAME": "Nuzvid"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "71",
+        "AC_NAME": "Gannavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "72",
+        "AC_NAME": "Gudivada"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "73",
+        "AC_NAME": "Kaikalur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "74",
+        "AC_NAME": "Pedana"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "75",
+        "AC_NAME": "Machilipatnam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "76",
+        "AC_NAME": "Avanigadda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "77",
+        "AC_NAME": "Pamarru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "78",
+        "AC_NAME": "Penamaluru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "79",
+        "AC_NAME": "Vijayawada West"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "80",
+        "AC_NAME": "Vijayawada Central"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "81",
+        "AC_NAME": "Vijayawada East"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "82",
+        "AC_NAME": "Mylavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "83",
+        "AC_NAME": "Nandigama"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "84",
+        "AC_NAME": "Jaggayyapeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "85",
+        "AC_NAME": "Pedakurapadu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "86",
+        "AC_NAME": "Tadikonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "87",
+        "AC_NAME": "Mangalagiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "88",
+        "AC_NAME": "Ponnur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "89",
+        "AC_NAME": "Vemuru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "90",
+        "AC_NAME": "Repalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "91",
+        "AC_NAME": "Tenali"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "92",
+        "AC_NAME": "Bapatla"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "93",
+        "AC_NAME": "Prathipadu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "94",
+        "AC_NAME": "Guntur West"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "95",
+        "AC_NAME": "Guntur East"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "96",
+        "AC_NAME": "Chilakaluripet"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "97",
+        "AC_NAME": "Narasaraopet"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "98",
+        "AC_NAME": "Sattenapalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "99",
+        "AC_NAME": "Vinukonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "100",
+        "AC_NAME": "Gurajala"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "101",
+        "AC_NAME": "Macherla"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "102",
+        "AC_NAME": "Yerragondapalem"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "103",
+        "AC_NAME": "Darsi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "104",
+        "AC_NAME": "Parchur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "105",
+        "AC_NAME": "Addanki"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "106",
+        "AC_NAME": "Chirala"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "107",
+        "AC_NAME": "Santhanuthalapadu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "108",
+        "AC_NAME": "Ongole"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "109",
+        "AC_NAME": "Kandukur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "110",
+        "AC_NAME": "Kondapi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "111",
+        "AC_NAME": "Markapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "112",
+        "AC_NAME": "Giddalur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "113",
+        "AC_NAME": "Kanigiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "114",
+        "AC_NAME": "Kavali"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "115",
+        "AC_NAME": "Atmakur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "116",
+        "AC_NAME": "Kovur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "117",
+        "AC_NAME": "Nellore City"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "118",
+        "AC_NAME": "Nellore Rural"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "119",
+        "AC_NAME": "Sarvepalli"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "120",
+        "AC_NAME": "Gudur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "121",
+        "AC_NAME": "Sullurpeta"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "122",
+        "AC_NAME": "Venkatagiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "123",
+        "AC_NAME": "Udayagiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "124",
+        "AC_NAME": "Badvel"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "125",
+        "AC_NAME": "Rajampet"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "126",
+        "AC_NAME": "Kadapa"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "127",
+        "AC_NAME": "Kodur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "128",
+        "AC_NAME": "Rayachoti"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "129",
+        "AC_NAME": "Pulivendla"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "130",
+        "AC_NAME": "Kamalapuram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "131",
+        "AC_NAME": "Jammalamadugu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "132",
+        "AC_NAME": "Proddatur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "133",
+        "AC_NAME": "Mydukur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "134",
+        "AC_NAME": "Allagadda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "135",
+        "AC_NAME": "Srisailam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "136",
+        "AC_NAME": "Nandikotkur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "137",
+        "AC_NAME": "Kurnool"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "138",
+        "AC_NAME": "Panyam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "139",
+        "AC_NAME": "Nandyal"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "140",
+        "AC_NAME": "Banaganapalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "141",
+        "AC_NAME": "Dhone"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "142",
+        "AC_NAME": "Pattikonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "143",
+        "AC_NAME": "Kodumur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "144",
+        "AC_NAME": "Yemmiganur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "145",
+        "AC_NAME": "Mantralayam"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "146",
+        "AC_NAME": "Adoni"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "147",
+        "AC_NAME": "Alur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "148",
+        "AC_NAME": "Rayadurg"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "149",
+        "AC_NAME": "Uravakonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "150",
+        "AC_NAME": "Guntakal"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "151",
+        "AC_NAME": "Tadpatri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "152",
+        "AC_NAME": "Singanamala"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "153",
+        "AC_NAME": "Anantapur Urban"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "154",
+        "AC_NAME": "Kalyandurg"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "155",
+        "AC_NAME": "Raptadu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "156",
+        "AC_NAME": "Madakasira"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "157",
+        "AC_NAME": "Hindupur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "158",
+        "AC_NAME": "Penukonda"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "159",
+        "AC_NAME": "Puttaparthi"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "160",
+        "AC_NAME": "Dharmavaram"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "161",
+        "AC_NAME": "Kadiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "162",
+        "AC_NAME": "Thamballapalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "163",
+        "AC_NAME": "Pileru"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "164",
+        "AC_NAME": "Madanapalle"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "165",
+        "AC_NAME": "Punganur"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "166",
+        "AC_NAME": "Chandragiri"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "167",
+        "AC_NAME": "Tirupati"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "168",
+        "AC_NAME": "Srikalahasti"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "169",
+        "AC_NAME": "Satyavedu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "170",
+        "AC_NAME": "Nagari"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "171",
+        "AC_NAME": "Gangadhara Nellore"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "172",
+        "AC_NAME": "Chittoor"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "173",
+        "AC_NAME": "Puthalapattu"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "174",
+        "AC_NAME": "Palamaner"
+    },
+    {
+        "ST_CODE": "S01",
+        "Short_Name": "AP",
+        "ST_NAME": "ANDHRA PRADESH",
+        "AC_NO": "175",
+        "AC_NAME": "Kuppam"
+    }
+]
