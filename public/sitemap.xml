@@ -9,47 +9,67 @@
 
 <url>
   <loc>https://indiaelects.vercel.app/</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/loksabha_result_2024</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/Summary</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/stateresults</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://indiaelects.vercel.app/politician</loc>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/AboutUs</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/ContactUs</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/stateresults/Sikkim</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/stateresults/Andhrapradesh</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://indiaelects.vercel.app/politician/Narendra-Modi</loc>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://indiaelects.vercel.app/politician/Rahul-Gandhi</loc>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://indiaelects.vercel.app/politician/Nitish-Kumar</loc>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://indiaelects.vercel.app/PrivacyPolicy</loc>
-  <lastmod>2024-06-19T05:28:20+00:00</lastmod>
+  <lastmod>2024-06-23T07:29:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
