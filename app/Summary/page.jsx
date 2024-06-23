@@ -1,5 +1,6 @@
 import Summary from "@/components/Summary";
 import React from "react";
+
 export const metadata = {
   title: "Summary | Get 2024 Election Summary India",
   description:
@@ -10,7 +11,7 @@ const ElectionsPage = async () => {
   let error;
 
   try {
-    const res = await fetch("https://indiaelects.vercel.app/api/summary", {
+    const res = await fetch("http://localhost:3000/api/summary", {
       next: { revalidate: 3600 }, // Revalidate cache every hour
     });
     if (!res.ok) {

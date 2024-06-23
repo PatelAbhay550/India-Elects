@@ -1,10 +1,6 @@
 import Link from "next/link";
 import React from "react";
-export const metadata = {
-  title: "2024 State Election Result | India Elects",
-  description:
-    "Get state election results from Andhra Pradesh, Sikkim, Arunachal Pradesh and Odisha.",
-};
+
 const Stateresult = () => {
   return (
     <div className="bg-gray-100 min-h-screen">

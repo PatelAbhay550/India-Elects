@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "chart.js": "^4.4.3",
+    "express": "^4.19.2",
     "isomorphic-fetch": "^3.0.0",
     "isomorphic-unfetch": "^4.0.2",
     "next": "14.2.4",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "wikipedia": "^2.1.2"
   },
   "devDependencies": {
     "postcss": "^8",
