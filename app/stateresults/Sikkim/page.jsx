@@ -12,7 +12,7 @@ const Sikkim = async () => {
   let error;
 
   try {
-    const res = await fetch("http://localhost:3000/api/sikkimresult", {
+    const res = await fetch("http://indiaelects.vercel.app/api/sikkimresult", {
       next: { revalidate: 3600 }, // Revalidate cache every hour
     });
     if (!res.ok) {
