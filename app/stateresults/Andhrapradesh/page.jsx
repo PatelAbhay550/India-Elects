@@ -12,7 +12,7 @@ const Andhra = async () => {
   let error;
 
   try {
-    const res = await fetch("http://localhost:3000/api/andhraresult", {
+    const res = await fetch("http://indiaelects.vercel.app/api/andhraresult", {
       next: { revalidate: 3600 }, // Revalidate cache every hour
     });
     if (!res.ok) {
