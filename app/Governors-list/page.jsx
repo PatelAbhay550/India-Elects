@@ -43,7 +43,7 @@ const Governors = async () => {
           Back to Home
         </h2>
       </Link>
-      <h1 className="text-2xl font-bold mb-4">Governors of India</h1>
+      <h1 className="text-2xl font-bold mb-4">List of Governors of India</h1>
       <p className="mb-4">
         India, the world's largest democracy, is comprised of 28 states and 8
         Union Territories. Each state is overseen by a Governor who is the head
