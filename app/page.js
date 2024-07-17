@@ -59,6 +59,19 @@ const HomePage = () => {
               </div>
             </div>
           </Link>
+          <Link href="/cheif-ministers-list">
+            <div className="block mx-auto mt-8 max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
+              <div className="bg-white p-6">
+                <h2 className="text-xl font-semibold text-gray-800 mb-2">
+                  Chief Ministers of India
+                </h2>
+                <p className="text-sm text-gray-600">
+                  List of Chief Ministers of Indian states with their respective
+                  states.
+                </p>
+              </div>
+            </div>
+          </Link>
         </div>{" "}
         <p className="text-lg text-gray-600 mt-4 mb-2 text-justify">
           Your definitive source for comprehensive election data and analysis in
