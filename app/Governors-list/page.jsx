@@ -40,7 +40,7 @@ const Governors = async () => {
     <div className="container mx-auto p-4">
       <Link href="/">
         <h2 className="text-2xl font-bold mb-8 cursor-pointer bg-zinc-400 px-3 w-fit">
-          Back to Home
+          IndiaElects
         </h2>
       </Link>
       <h1 className="text-2xl font-bold mb-4">List of Governors of India</h1>
