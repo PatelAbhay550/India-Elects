@@ -32,7 +32,7 @@ const ElectionResults = ({ results }) => {
     <div className="container mx-auto p-4 cursor-pointer">
       <Link href="/">
         <h2 className="text-2xl font-bold mb-8 cursor-pointer bg-zinc-400 px-3 w-fit ">
-          Back to Home
+          IndiaElects
         </h2>
       </Link>
       <h1 className="text-3xl font-bold mb-2">Election Results 2024</h1>
