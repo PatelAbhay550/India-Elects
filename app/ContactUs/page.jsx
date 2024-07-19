@@ -1,6 +1,11 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+export const metadata = {
+  title: "Contact Us | India Elects",
+  description:
+    "Welcome to India Elects, your premier destination for comprehensive election data and analysis in India.",
+};
 
 const ContactUsPage = () => {
   const [formData, setFormData] = useState({
