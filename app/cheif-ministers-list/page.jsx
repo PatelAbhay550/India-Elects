@@ -104,6 +104,19 @@ const ChiefMinisters = async () => {
           </tbody>
         </table>
       </div>
+      <Link href="/Governors-list">
+            <div className="block mx-auto mt-8 max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300 cursor-pointer">
+              <div className="bg-white p-6">
+                <h2 className="text-xl font-semibold text-gray-800 mb-2">
+                  Governors of India List
+                </h2>
+                <p className="text-sm text-gray-600">
+                  List of Governors of Indian states with their respective
+                  states.
+                </p>
+              </div>
+            </div>
+          </Link>
       <footer className="bg-gray-800 text-gray-300 text-center py-4 mt-4">
         <div className="container mx-auto">
           <div className="flex justify-center">
