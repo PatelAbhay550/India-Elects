@@ -10,8 +10,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: "Politician | India Elects",
       description: "Detailed biodata of Indian politicians",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/4/44/Shri_Narendra_Modi%2C_Prime_Minister_of_India.jpg", // Default image
+      images:["https://upload.wikimedia.org/wikipedia/commons/4/44/Shri_Narendra_Modi%2C_Prime_Minister_of_India.jpg"], 
     },
   };
   const { politicianname } = params;
@@ -42,7 +41,7 @@ export async function generateMetadata({ params }) {
           openGraph: {
             title: `${formattedName} | India Elects`,
             description: `Get all information about ${politician.name}, a prominent politician in India.`,
-            image: politician.image,
+            images: [politician.image],
           },
         };
       }
