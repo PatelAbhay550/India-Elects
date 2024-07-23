@@ -6,6 +6,7 @@ const Footer = () => {
     <>
       <footer className="bg-gray-800 text-gray-300 text-center py-4 absolute b-0 w-screen">
         <div className="container mx-auto">
+          <p>This content is protected by <a href="https://www.dmca.com/r/2lgljqm"> DCMA </a></p>
           <div className="flex justify-center">
             <Link href="/AboutUs">
               <h4 className="mx-4 hover:text-gray-400">About Us</h4>
