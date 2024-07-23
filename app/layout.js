@@ -51,6 +51,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
         {children}
+<p>This content is protected by <a href="https://www.dmca.com/r/2lgljqm"> DCMA </a><p/>
       </body>
     </html>
   );
