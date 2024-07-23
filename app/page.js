@@ -133,31 +133,6 @@ const HomePage = async () => {
           </div>
         </div>
 
-        {/* Latest Blogs Section */}
-        <div className="mt-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Latest Blogs
-          </h2>
-          {["politics", "budget2024", "health"].map((category) => (
-            <div key={category} className="mb-8">
-              <h3 className="text-2xl font-semibold text-gray-700 capitalize mb-4">
-                {category.charAt(0).toUpperCase() + category.slice(1)}
-              </h3>
-              {getTopBlogs(category).map((blog) => (
-                <Link key={blog.title} href={blog.link}>
-                  <div className="bg-white rounded-lg shadow-lg p-4 mb-4 hover:shadow-xl transition-shadow duration-200">
-                    <h4 className="text-lg font-bold text-gray-800">
-                      {blog.title}
-                    </h4>
-                    <p className="text-gray-500 mt-1">{blog.date}</p>
-                    <p className="text-gray-700 mt-1">by {blog.author}</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          ))}
-        </div>
-
         <p className="text-lg text-gray-600 mt-4 mb-2 text-justify">
           Your definitive source for comprehensive election data and analysis in
           India. Whether you're a political enthusiast, a researcher, or a
