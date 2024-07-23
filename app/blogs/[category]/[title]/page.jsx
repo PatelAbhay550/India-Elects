@@ -37,7 +37,7 @@ export async function generateMetadata({ params }) {
           title: `${blog.title} | India Elects`,
           description:
             blog.summary || `Read more about ${blog.title} on India Elects.`,
-          image: blog.image,
+          images: [blog.image],
           url: `https://indiaelects.vercel.app/blogs/${category}/${title}`, // Update with your actual URL
           type: "article",
         },
