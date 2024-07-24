@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <url>
+    <loc>https://indiaelects.vercel.app/blogs/latest/tragic-saurya-airlines-plane-crash-at-tribhuvan-international-airport</loc>
+    <news:news>
+      <news:publication>
+        <news:name>India Elects</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-07-24</news:publication_date>
+      <news:title>Tragic Saurya Airlines Plane Crash at Tribhuvan International Airport</news:title>
+      <news:keywords>nepal plane crash, saurya airlines crash, tribhuvan international airport</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://indiaelects.vercel.app/blogs/budget2024/union-budget-2024-25-nirmala-sitharaman-to-present-budget-for-the-seventh-time</loc>
+    <news:news>
+      <news:publication>
+        <news:name>India Elects</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-07-23</news:publication_date>
+      <news:title>Union Budget 2024-25 Nirmala Sitharaman to Present Budget for the Seventh Time</news:title>
+      <news:keywords>budget2024, highlights</news:keywords>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://indiaelects.vercel.app/blogs/budget2024/nirmala-sitharaman-announces-big-changes-in-taxes-and-jobs-in-budget-2024</loc>
+    <news:news>
+      <news:publication>
+        <news:name>India Elects</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-07-23</news:publication_date>
+      <news:title>Nirmala Sitharaman Announces Big Changes in Taxes and Jobs in Budget 2024</news:title>
+      <news:keywords>budget2024, jobs, business</news:keywords>
+    </news:news>
+  </url>
+
+</urlset>
