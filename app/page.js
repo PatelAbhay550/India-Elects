@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Link from "next/link";
+import Script from "next/script";
 import React from "react";
 
 const fetchBlogs = async () => {
@@ -37,12 +38,10 @@ const HomePage = async () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-    
       <div className="container mx-auto px-4 py-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-800 mt-8">
-            <span className="font-bold">India Elects</span> - Election Results
-            Hub
+            <span className="font-bold">India Elects</span> - Election Results Hub
           </h1>
           <div className="mt-8">
             <Link href="/loksabha_result_2024">
@@ -92,7 +91,7 @@ const HomePage = async () => {
                   </p>
                 </div>
               </div>
-            </Link>{" "}
+            </Link>
             <Link href="/blogs">
               <div className="block mx-auto mt-8 max-w-sm rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                 <div className="bg-white p-6">
@@ -112,8 +111,7 @@ const HomePage = async () => {
                     Chief Ministers of India
                   </h2>
                   <p className="text-sm text-gray-600">
-                    List of Chief Ministers of Indian states with their
-                    respective states.
+                    List of Chief Ministers of Indian states with their respective states.
                   </p>
                 </div>
               </div>
@@ -125,13 +123,19 @@ const HomePage = async () => {
                     Governors of India List
                   </h2>
                   <p className="text-sm text-gray-600">
-                    List of Governors of Indian states with their respective
-                    states.
+                    List of Governors of Indian states with their respective states.
                   </p>
                 </div>
               </div>
             </Link>
-   <div className="ad-container mt-8 text-center">
+          </div>
+        </div>
+
+        <p className="text-lg text-gray-600 mt-4 mb-2 text-justify">
+          Your definitive source for comprehensive election data and analysis in India. Whether you're a political enthusiast, a researcher, or a citizen eager to stay informed, India Elects brings you real-time updates, historical trends, and insightful commentary on elections across the nation.
+        </p>
+
+        <div className="ad-container mt-8 text-center">
           <ins className="adsbygoogle"
             style={{ display: "block" }}
             data-ad-format="fluid"
@@ -139,19 +143,17 @@ const HomePage = async () => {
             data-ad-client="ca-pub-8804622562841633"
             data-ad-slot="9165950400"></ins>
         </div>
-          </div>
-        </div>
-
-        <p className="text-lg text-gray-600 mt-4 mb-2 text-justify">
-          Your definitive source for comprehensive election data and analysis in
-          India. Whether you're a political enthusiast, a researcher, or a
-          citizen eager to stay informed, India Elects brings you real-time
-          updates, historical trends, and insightful commentary on elections
-          across the nation.
-        </p>
       </div>
 
       <Footer />
+      <Script
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        strategy="afterInteractive"
+        onLoad={() => {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        }}
+        crossOrigin="anonymous"
+      />
     </div>
   );
 };
