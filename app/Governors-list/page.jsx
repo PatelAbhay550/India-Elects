@@ -86,15 +86,15 @@ const Governors = async () => {
         <table className="min-w-full bg-white border border-gray-200">
           <thead>
             <tr>
-              <th className="py-2 px-4 border-b">State</th>
-              <th className="py-2 px-4 border-b">Governor</th>
+              <th className="py-2 px-4 border-b text-gray-800">State</th>
+              <th className="py-2 px-4 border-b text-gray-800">Governor</th>
             </tr>
           </thead>
           <tbody>
             {data.Governors.map((governor) => (
               <tr key={governor.State}>
-                <td className="py-2 px-4 border-b">{governor.State}</td>
-                <td className="py-2 px-4 border-b">{governor.Governor}</td>
+                <td className="py-2 px-4 border-b text-gray-800">{governor.State}</td>
+                <td className="py-2 px-4 border-b text-gray-800">{governor.Governor}</td>
               </tr>
             ))}
           </tbody>
