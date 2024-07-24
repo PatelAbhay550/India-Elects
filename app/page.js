@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React from "react";
 
 const fetchBlogs = async () => {
   try {
@@ -34,8 +34,6 @@ const HomePage = async () => {
       })) || []
     );
   };
-
-  
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -147,6 +145,7 @@ const HomePage = async () => {
       </div>
 
       <Footer />
+      
     </div>
   );
 };
