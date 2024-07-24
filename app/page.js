@@ -1,7 +1,6 @@
 import Footer from "@/components/footer";
 import Link from "next/link";
-import Script from "next/script";
-import React from "react";
+import React, { useEffect } from "react";
 
 const fetchBlogs = async () => {
   try {
@@ -35,6 +34,8 @@ const HomePage = async () => {
       })) || []
     );
   };
+
+  
 
   return (
     <div className="bg-gray-100 min-h-screen">
@@ -146,14 +147,6 @@ const HomePage = async () => {
       </div>
 
       <Footer />
-      <Script
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }}
-        crossOrigin="anonymous"
-      />
     </div>
   );
 };
