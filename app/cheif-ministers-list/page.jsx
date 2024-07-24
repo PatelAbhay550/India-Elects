@@ -85,20 +85,20 @@ const ChiefMinisters = async () => {
       </ul>
 
       <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-gray-200">
+        <table className="min-w-full bg-white border border-gray-200 text-gray-800">
           <thead>
             <tr>
-              <th className="py-2 px-4 border-b">State</th>
-              <th className="py-2 px-4 border-b">Chief Minister</th>
-              <th className="py-2 px-4 border-b">Took Office</th>
+              <th className="py-2 px-4 border-b text-gray-800">State</th>
+              <th className="py-2 px-4 border-b text-gray-800">Chief Minister</th>
+              <th className="py-2 px-4 border-b text-gray-800">Took Office</th>
             </tr>
           </thead>
           <tbody>
             {data.ChiefMinisters.map((cm) => (
               <tr key={cm.State}>
-                <td className="py-2 px-4 border-b">{cm.State}</td>
-                <td className="py-2 px-4 border-b">{cm.ChiefMinister}</td>
-                <td className="py-2 px-4 border-b pr-8">{cm.office}</td>
+                <td className="py-2 px-4 border-b text-gray-800">{cm.State}</td>
+                <td className="py-2 px-4 border-b text-gray-800">{cm.ChiefMinister}</td>
+                <td className="py-2 px-4 border-b pr-8 text-gray-800">{cm.office}</td>
               </tr>
             ))}
           </tbody>
