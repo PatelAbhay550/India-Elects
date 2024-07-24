@@ -37,6 +37,7 @@ const HomePage = async () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
+    
       <div className="container mx-auto px-4 py-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-800 mt-8">
@@ -130,6 +131,14 @@ const HomePage = async () => {
                 </div>
               </div>
             </Link>
+   <div className="ad-container mt-8 text-center">
+          <ins className="adsbygoogle"
+            style={{ display: "block" }}
+            data-ad-format="fluid"
+            data-ad-layout-key="-gw-3+1f-3d+2z"
+            data-ad-client="ca-pub-8804622562841633"
+            data-ad-slot="9165950400"></ins>
+        </div>
           </div>
         </div>
 
