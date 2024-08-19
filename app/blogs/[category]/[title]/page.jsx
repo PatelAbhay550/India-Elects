@@ -5,20 +5,28 @@ import Footer from "@/components/footer";
 
 export const dynamicParams = true;
 
-// Function to fetch blog 
+// Function to fetch blog data
 async function getBlogData(category, title) {
-  const res = await fetch("https://xanimewatcher.vercel.app/blogs.json");
-  const data = await res.json();
+  try {
+    const res = await fetch("https://xanimewatcher.vercel.app/blogs.json");
+    if (!res.ok) {
+      throw new Error("Failed to fetch data");
+    }
+    const data = await res.json();
 
-  const blog = data.categories[category]?.find(
-    (b) => b.title.replace(/ /g, "-").toLowerCase() === title
-  );
+    const blog = data.categories[category]?.find(
+      (b) => b.title.replace(/ /g, "-").toLowerCase() === title
+    );
 
-  if (!blog) {
+    if (!blog) {
+      return null;
+    }
+
+    return blog;
+  } catch (error) {
+    console.error("Error fetching blog data:", error.message);
     return null;
   }
-
-  return blog;
 }
 
 // Function to generate metadata dynamically
@@ -110,7 +118,7 @@ const BlogPost = async ({ params }) => {
         />
         <div
           className="text-justify mt-4"
-          dangerouslySetInnerHTML={{ __html: blog.content }}
+          dangerouslySetInnerHTML={{ __html: blog.article }}
         />
         <p className="text-zinc-900 mt-4 text-2xl font-bold">Tags</p>
         <p>{blog.tags.join(", ")}</p>
