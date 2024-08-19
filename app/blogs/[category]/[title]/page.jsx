@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 
 export const dynamicParams = true;
 
-// Function to fetch blog data
+// Function to fetch blog 
 async function getBlogData(category, title) {
   const res = await fetch("https://xanimewatcher.vercel.app/blogs.json");
   const data = await res.json();
