@@ -89,6 +89,31 @@ const BlogPost = async ({ params }) => {
     notFound();
   }
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": blog.title,
+    "image": blog.image,
+    "author": {
+      "@type": "Person",
+      "name": blog.author,
+    },
+    "datePublished": blog.date,
+    "articleBody": blog.article,
+    "publisher": {
+      "@type": "Organization",
+      "name": "India Elects",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://raw.githubusercontent.com/PatelAbhay550/India-Elects/main/public/favicon.ico" // Replace with your logo URL
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://indiaelects.vercel.app/blogs/${category}/${title}`
+    }
+  };
+
   return (
     <div className="bg-gray-100 min-h-screen py-8">
       <div className="lg:mb-8 py-1 top-0 absolute w-full h-20 bg-zinc-600/50 mb-4 flex items-center justify-between overflow-hidden pr-10 pl-1">
@@ -120,6 +145,13 @@ const BlogPost = async ({ params }) => {
           className="text-justify mt-4"
           dangerouslySetInnerHTML={{ __html: blog.article }}
         />
+
+        {/* Structured Data Script */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+
         <p className="text-zinc-900 mt-4 text-2xl font-bold">Tags</p>
         <p>{blog.tags.join(", ")}</p>
       </div>
