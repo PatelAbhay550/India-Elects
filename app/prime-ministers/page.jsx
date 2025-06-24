@@ -266,7 +266,7 @@ const primeMinistersData = [
       "Bharat Ratna recipient (2015)"
     ],
     biography: "Atal Bihari Vajpayee was a charismatic leader and poet who served as Prime Minister three times. He was known for his oratory skills and played a key role in India's nuclear program and infrastructure development.",
-    image: "/https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Atal_Bihari_Vajpayee_%28crop_2%29.jpg/250px-Atal_Bihari_Vajpayee_%28crop_2%29.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Atal_Bihari_Vajpayee_%28crop_2%29.jpg/250px-Atal_Bihari_Vajpayee_%28crop_2%29.jpg"
   },
   {
     id: 12,
