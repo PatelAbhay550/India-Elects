@@ -82,7 +82,7 @@ const primeMinistersData = [
       "Five-Year Plans implementation"
     ],
     biography: "Jawaharlal Nehru was the first Prime Minister of India and a central figure in Indian politics. A leader of the Indian independence movement, he was a close associate of Mahatma Gandhi and played a crucial role in shaping modern India's political landscape.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Nehru_portrait.jpg/220px-Nehru_portrait.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jawaharlal_Nehru%2C_1947.jpg"
   },
   {
     id: 2,
@@ -100,7 +100,7 @@ const primeMinistersData = [
       "Bharat Ratna recipient (1997)"
     ],
     biography: "Gulzarilal Nanda served as the acting Prime Minister of India twice, following the deaths of Jawaharlal Nehru and Lal Bahadur Shastri. He was known for his work in labor rights and social reform.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gulzarilal_Nanda_1.jpg"
   },
   {
     id: 3,
@@ -118,7 +118,7 @@ const primeMinistersData = [
       "Tashkent Agreement signatory"
     ],
     biography: "Lal Bahadur Shastri was known for his honesty and humility. He led India during the 1965 war with Pakistan and promoted the Green Revolution. His slogan 'Jai Jawan Jai Kisan' became iconic.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lal_Bahadur_Shastri_%28from_stamp%29.jpg/250px-Lal_Bahadur_Shastri_%28from_stamp%29.jpg"
   },
   {
     id: 4,
@@ -137,7 +137,7 @@ const primeMinistersData = [
       "Emergency Period (1975-1977)"
     ],
     biography: "Indira Gandhi was the first and only female Prime Minister of India. Known as the 'Iron Lady of India', she was a central figure in Indian politics for decades and played a crucial role in the creation of Bangladesh.",
-    image: "/api/placeholder/150/150"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAcK_81YR_C-AbA7xZbgI4lvVyYKI8wBoCjg&s"
   },
   {
     id: 5,
@@ -155,7 +155,7 @@ const primeMinistersData = [
       "Nishan-e-Pakistan recipient"
     ],
     biography: "Morarji Desai was the first non-Congress Prime Minister of India. He came to power after the Emergency and worked to restore democratic institutions and civil liberties.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Morarji_Desai_During_his_visit_to_the_United_States_of_America_%28cropped%29.jpg"
   },
   {
     id: 6,
@@ -173,7 +173,7 @@ const primeMinistersData = [
       "Known as 'Champion of farmers'"
     ],
     biography: "Charan Singh was known as the 'Champion of farmers' and advocated for agricultural and rural development. He served the shortest tenure as an elected Prime Minister.",
-    image: "/api/placeholder/150/150"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwkt7qd_h4SvGJjh7GdjKJLlzhN3pPwTl1AA&s"
   },
   {
     id: 7,
@@ -192,7 +192,7 @@ const primeMinistersData = [
       "Anti-defection law"
     ],
     biography: "Rajiv Gandhi became the youngest Prime Minister of India at age 40. He is credited with modernizing India's technology sector and initiating the computer revolution in the country.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Rajiv_Gandhi_%281987%29.jpg"
   },
   {
     id: 8,
@@ -210,7 +210,7 @@ const primeMinistersData = [
       "OBC reservation implementation"
     ],
     biography: "V.P. Singh implemented the Mandal Commission recommendations, providing reservations for Other Backward Classes. He was known for his fight against corruption and commitment to social justice.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Visit_of_Vishwanath_Pratap_Singh%2C_Indian_Minister_for_Trade%2C_to_the_CEC_%28cropped%29.jpg"
   },
   {
     id: 9,
@@ -228,7 +228,7 @@ const primeMinistersData = [
       "Socialist leader"
     ],
     biography: "Chandra Shekhar was a socialist leader and one of the 'Young Turks' in the Congress party. He managed the country during the Gulf War crisis and initiated some economic reforms.",
-    image: "/api/placeholder/150/150"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7haJYlbjdzQMtHhY1vF_rrPI3lIGM1EahQ&s"
   },
   {
     id: 10,
@@ -247,7 +247,7 @@ const primeMinistersData = [
       "Multilingual scholar"
     ],
     biography: "P.V. Narasimha Rao is credited as the father of economic liberalization in India. Under his leadership, India opened up its economy and initiated major economic reforms that transformed the country.",
-    image: "/api/placeholder/150/150"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf13o0lxy5Olr3hbHZ7gfVvsb5Ue-4wMIsmw&s"
   },
   {
     id: 11,
@@ -266,7 +266,7 @@ const primeMinistersData = [
       "Bharat Ratna recipient (2015)"
     ],
     biography: "Atal Bihari Vajpayee was a charismatic leader and poet who served as Prime Minister three times. He was known for his oratory skills and played a key role in India's nuclear program and infrastructure development.",
-    image: "/api/placeholder/150/150"
+    image: "/https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Atal_Bihari_Vajpayee_%28crop_2%29.jpg/250px-Atal_Bihari_Vajpayee_%28crop_2%29.jpg"
   },
   {
     id: 12,
@@ -285,7 +285,7 @@ const primeMinistersData = [
       "Right to Information Act"
     ],
     biography: "Dr. Manmohan Singh, an economist by profession, served as Prime Minister for two consecutive terms. He was the architect of India's economic liberalization in 1991 and continued reforms during his tenure as PM.",
-    image: "/api/placeholder/150/150"
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Official_Portrait_of_the_Prime_Minister_Dr._Manmohan_Singh.jpg"
   },
   {
     id: 13,
@@ -305,7 +305,7 @@ const primeMinistersData = [
       "Article 370 abrogation"
     ],
     biography: "Narendra Modi is the current Prime Minister of India, serving since 2014. He previously served as Chief Minister of Gujarat for nearly 13 years. He is known for his development-focused governance and various social and economic initiatives.",
-    image: "/api/placeholder/150/150"
+    image: "https://cdn.britannica.com/07/171607-050-1967B34C/Narendra-Modi.jpg"
   }
 ];
 
