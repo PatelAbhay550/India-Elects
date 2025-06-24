@@ -263,9 +263,7 @@ const CategoriesPage = async () => {
                             src={blog.image}
                             alt={blog.title}
                             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-                            onError={(e) => {
-                              e.target.src = 'https://via.placeholder.com/400x200/6366f1/ffffff?text=India+Elects';
-                            }}
+                            
                           />
                           <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-10 transition-all duration-300"></div>
                           <div className="absolute top-4 left-4">
