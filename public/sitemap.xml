@@ -28,6 +28,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://indiaelects.vercel.app/prime-ministers</loc>
+  <lastmod>2024-12-24T04:18:07+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://indiaelects.vercel.app/neighbouring-countries</loc>
+  <lastmod>2024-12-24T04:18:07+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>https://indiaelects.vercel.app/politician</loc>
   <lastmod>2024-07-23T04:18:07+00:00</lastmod>
   <priority>0.80</priority>

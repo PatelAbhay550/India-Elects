@@ -1,5 +1,52 @@
 import Link from "next/link";
 import React from "react";
+
+// Schema markup for About Us page
+const aboutUsSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About India Elects",
+  "description": "Welcome to India Elects, your premier destination for comprehensive election data and analysis in India.",
+  "url": "https://indiaelects.vercel.app/AboutUs",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "India Elects",
+    "url": "https://indiaelects.vercel.app",
+    "description": "Premier destination for comprehensive election data and analysis in India",
+    "foundingDate": "2024",
+    "knowsAbout": [
+      "Indian Elections",
+      "Political Analysis", 
+      "Election Results",
+      "Political Data"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https://indiaelects.vercel.app/ContactUs"
+    }
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://indiaelects.vercel.app"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About Us",
+      "item": "https://indiaelects.vercel.app/AboutUs"
+    }
+  ]
+};
+
 export const metadata = {
   title: "About Us | India Elects",
   description:
@@ -7,6 +54,21 @@ export const metadata = {
 };
 const AboutUsPage = () => {
   return (
+    <>
+      {/* JSON-LD Schema Markup */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(aboutUsSchema)
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(breadcrumbSchema)
+        }}
+      />
+      
     <div className="bg-white text-zinc-800 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <Link href="/">
@@ -74,10 +136,10 @@ const AboutUsPage = () => {
               Contact Us
             </a>
           </div>
-          <p className="mt-2">&copy; 2024 India Elects. All rights reserved.</p>
-        </div>
+          <p className="mt-2">&copy; 2024 India Elects. All rights reserved.</p>        </div>
       </footer>
-    </div>
+      </div>
+    </>
   );
 };
 

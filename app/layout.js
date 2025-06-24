@@ -1,12 +1,19 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "India Elects | Get Latest Indian Election Data",
+  title: "India Elects | Get Latest Indian Election Data & Political Information",
   description:
-    "Get the latest Indian election data and results. Your source for comprehensive election information in India.",
+    "Get the latest Indian election data, Prime Ministers list, neighboring countries info, and comprehensive political information. Your source for Indian politics and governance.",
+  keywords: "India Elections, Prime Ministers, Politics, Lok Sabha, State Elections, Indian Democracy, Political Leaders",
+  openGraph: {
+    title: "India Elects - Complete Indian Political Information Hub",
+    description: "Comprehensive election data, political information, and governance details for India",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -41,8 +48,7 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
         ></script>
       </head>
-      <body className={inter.className}>
-        <noscript>
+      <body className={inter.className}>        <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-TFF6HJBZ"
             height="0"
@@ -50,6 +56,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
+        <Header />
         {children}
       </body>
     </html>
