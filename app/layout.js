@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import { images } from "wikipedia";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,16 @@ export const metadata = {
     title: "India Elects - Complete Indian Political Information Hub",
     description: "Comprehensive election data, political information, and governance details for India",
     type: "website",
+    url: "https://indiaelects.vercel.app",
+    siteName: "India Elects",
+    images: [
+      {
+        url: "https://indiaelects.vercel.app/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "India Elects og-image",
+      },
+    ],
   },
 };
 
