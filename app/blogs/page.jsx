@@ -85,12 +85,7 @@ const Blog = async () => {
               </div>
               <h3 className="text-lg font-medium text-gray-900 mb-2">Error Loading Blogs</h3>
               <p className="text-sm text-gray-500 mb-4">{error}</p>
-              <button 
-                onClick={() => window.location.reload()} 
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >
-                Try Again
-              </button>
+              
             </div>
           </div>
         </div>

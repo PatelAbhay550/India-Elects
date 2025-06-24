@@ -131,12 +131,7 @@ const ChiefMinisters = async () => {
             </div>
             <h2 className="text-xl font-semibold text-gray-800 mb-2">Unable to Load Data</h2>
             <p className="text-red-600 mb-4">{error}</p>
-            <button 
-              onClick={() => window.location.reload()} 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg transition-colors duration-300"
-            >
-              Try Again
-            </button>
+            
           </div>
         </div>
       </>
