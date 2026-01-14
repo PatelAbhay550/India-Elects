@@ -1,5 +1,5 @@
 import React from "react";
-import stateListData from "./state-list.json"; // Assuming you have state-list.json in the same directory
+import stateListData from "./state-list.json"; 
 import Link from "next/link";
 
 const ElectionResults = ({ results }) => {
@@ -99,9 +99,11 @@ const ElectionResults = ({ results }) => {
                       >
                         {/* Constituency Header */}
                         <div className="border-b border-gray-200 pb-4 mb-4">
-                          <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
-                            {result.constituency}
-                          </h3>
+                          <Link href={`/loksabha_result_2024/${result.constituency}`}>
+                            <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+                              {result.constituency}
+                            </h3>
+                          </Link>
                           <div className="flex items-center mt-2">
                             <span
                               className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${

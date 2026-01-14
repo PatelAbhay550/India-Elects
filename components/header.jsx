@@ -7,15 +7,14 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    { name: "Home", href: "/" },
     { name: "Lok Sabha 2024", href: "/loksabha_result_2024" },
+    { name: "Bihar 2025", href: "/bihar-election-2025" },
     { name: "State Results", href: "/stateresults" },
-    { name: "Prime Ministers", href: "/prime-ministers" },
-    { name: "Neighbours", href: "/neighbouring-countries" },
     { name: "Politicians", href: "/politician" },
+    { name: "Prime Ministers", href: "/prime-ministers" },
     { name: "Chief Ministers", href: "/cheif-ministers-list" },
-    { name: "Governors", href: "/Governors-list" },
-    { name: "Blogs", href: "/blogs" }
+    { name: "Governors", href: "/governors-list" },
+    { name: "Blogs", href: "/blogs" },
   ];
 
   return (
