@@ -214,219 +214,215 @@ const page = async ({ params }) => {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       )}
-      <main className="container mx-auto p-4">
-        <header>
-          <h1 className="text-3xl font-bold mb-4">
+      <main className="container mx-auto p-4 md:p-8">
+        <header className="mb-6">
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">
             {escapedConstituency} Lok Sabha Election Results 2024
           </h1>
+          <p className="text-gray-600">Parliamentary Constituency</p>
         </header>
+
         <article>
-        {matchedResult.length > 0 ? (
-          matchedResult.map((result, index) => (
-            <p key={index} className="text-lg mb-6 leading-relaxed">
-              In the 2024 Lok Sabha elections, <strong>{escapedConstituency}</strong> parliamentary constituency elected{" "}
-              <strong>{toTitleCase(result.leadingCandidate)}</strong> from the{" "}
-              <strong>{result.leadingParty}</strong> as the winning candidate. {toTitleCase(result.trailingCandidate)} of{" "}
-              {result.trailingParty} secured the second position. The victory margin was{" "}
-              <strong>{typeof result.margin === "number" ? result.margin.toLocaleString() : result.margin} votes</strong>, 
-              with the result status marked as <em>{result.status}</em>.
-            </p>
-          ))
-        ) : (
-          <p className="text-lg mb-6">Loading constituency results...</p>
-        )}
-        </article>
+          {matchedResult.length > 0 ? (
+            matchedResult.map((result, index) => (
+              <p key={index} className="text-lg mb-6 leading-relaxed">
+                In the 2024 Lok Sabha elections, <strong>{escapedConstituency}</strong> parliamentary constituency elected{" "}
+                <strong>{toTitleCase(result.leadingCandidate)}</strong> from the{" "}
+                <strong>{result.leadingParty}</strong> as the winning candidate. {toTitleCase(result.trailingCandidate)} of{" "}
+                {result.trailingParty} secured the second position with a victory margin of{" "}
+                <strong>{typeof result.margin === "number" ? result.margin.toLocaleString() : result.margin} votes</strong>.
+              </p>
+            ))
+          ) : (
+            <p className="text-lg mb-6">Loading constituency results...</p>
+          )}
 
-      <section aria-labelledby="detailed-results" className="container mx-auto w-screen">
-  
-        <h2 id="detailed-results" className="sr-only">Detailed Election Results</h2>
-        <div className="p-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-          {matchedResult.map((result, index) => (
-            <div
-              key={index}
-              className="group bg-gradient-to-br from-white to-gray-50 border border-gray-200 rounded-xl p-6 hover:shadow-xl hover:border-blue-300 transition-all duration-300 transform "
-            >
-              <div className="border-b border-gray-200 pb-4 mb-4">
-                <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
-                  {escapedConstituency}
-                </h3>
-
-                <div className="flex items-center mt-2">
-                  <span
-                    className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${
-                      result.status === "Result Declared"
-                        ? "bg-green-100 text-green-800"
-                        : "bg-orange-100 text-orange-800"
-                    }`}
-                  >
-                    <div
-                      className={`w-2 h-2 rounded-full mr-2 ${
-                        result.status === "Result Declared"
-                          ? "bg-green-400"
-                          : "bg-orange-400"
-                      }`}
-                    ></div>
-                    {result.status}
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded-r-lg mb-4">
-                <div className="flex items-center mb-2">
-                  <svg
-                    className="w-5 h-5 text-green-600 mr-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <span className="text-sm font-medium text-green-800">
-                    Winning Candidate
-                  </span>
-                </div>
-                <p className="font-semibold text-gray-800 text-lg">
-                  {toTitleCase(result.leadingCandidate)}
-                </p>
-                <p className="text-green-700 font-medium">
-                  {result.leadingParty}
-                </p>
-              </div>
-
-              <div className="bg-gray-50 border-l-4 border-gray-400 p-4 rounded-r-lg mb-4">
-                <div className="flex items-center mb-2">
-                  <svg
-                    className="w-5 h-5 text-gray-600 mr-2"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    aria-hidden="true"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <span className="text-sm font-medium text-gray-600">
-                    Runner-up Candidate
-                  </span>
-                </div>
-                <p className="font-semibold text-gray-800">
-                  {toTitleCase(result.trailingCandidate)}
-                </p>
-                <p className="text-gray-600 font-medium">
-                  {result.trailingParty}
-                </p>
-              </div>
-
-              {/* Margin */}
-              <div className="bg-blue-50 p-4 rounded-lg">
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-blue-800">
-                    Victory Margin
-                  </span>
-                  <span className="text-xl font-bold text-blue-600">
-                    {typeof result.margin === "number"
-                      ? result.margin.toLocaleString()
-                      : result.margin}
-                  </span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-       
-      </section>
-
-      {/* Vote Share Details */}
-      {voteShareData.length > 0 && (
-        <section className="container mx-auto px-4 mb-8">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="bg-gradient-to-r from-gray-800 to-gray-700 text-white px-8 py-6">
-              <h2 className="text-2xl font-bold">Detailed Vote Share Analysis</h2>
-            </div>
-            <div className="p-8">
-              <div className="overflow-x-auto">
-                <table className="min-w-full">
-                  <thead className="bg-gray-50">
-                    <tr>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Candidate
-                      </th>
-                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Party
-                      </th>
-                      <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Votes
-                      </th>
-                      <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                        Vote Share
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-gray-200">
-                    {voteShareData.map((candidate, idx) => (
-                      <tr key={idx} className={idx === 0 ? "bg-green-50" : idx === 1 ? "bg-gray-50" : ""}>
-                        <td className="px-6 py-4 whitespace-nowrap">
-                          <div className="font-semibold text-gray-900">{toTitleCase(candidate.name)}</div>
-                          {candidate.lead && (
-                            <div className="text-sm text-green-600 font-medium">Lead: {candidate.lead}</div>
-                          )}
-                        </td>
-                        <td className="px-6 py-4">
-                          <div className="text-sm text-gray-900">{candidate.party}</div>
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-right font-medium text-gray-900">
-                          {candidate.votes}
-                        </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-right">
-                          <span className="font-bold text-blue-600">{candidate.voteShare}</span>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-
-              {/* Vote Share Visualization */}
-              <div className="mt-8">
-                <h3 className="text-lg font-bold mb-4 text-gray-800">Vote Share Distribution</h3>
-                <div className="space-y-3">
-                  {voteShareData.slice(0, 6).map((candidate, idx) => (
-                    <div key={idx}>
-                      <div className="flex justify-between items-center mb-1">
-                        <span className="text-sm font-medium text-gray-700">
-                          {toTitleCase(candidate.name)} ({candidate.party.split(' ').slice(0, 2).join(' ')})
-                        </span>
-                        <span className="text-sm font-bold text-gray-900">{candidate.voteShare}</span>
+          {/* Winner and Runner-up Cards */}
+          {matchedResult.length > 0 && (
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              {matchedResult.map((result, index) => (
+                <>
+                  {/* Winner Card */}
+                  <div key={`winner-${index}`} className="bg-gradient-to-br from-green-50 to-emerald-50 border-2 border-green-400 rounded-xl p-6">
+                    <div className="flex items-center mb-4">
+                      <svg
+                        className="w-8 h-8 text-green-600 mr-3"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <h2 className="text-2xl font-bold text-green-800">Winner</h2>
+                    </div>
+                    <div className="mb-4">
+                      <div className="text-2xl font-bold text-gray-900 mb-1">
+                        {toTitleCase(result.leadingCandidate)}
                       </div>
-                      <div className="w-full bg-gray-200 rounded-full h-3">
-                        <div
-                          className={`h-3 rounded-full ${
-                            idx === 0
-                              ? "bg-green-600"
-                              : idx === 1
-                              ? "bg-gray-500"
-                              : "bg-blue-400"
-                          }`}
-                          style={{ width: candidate.voteShare }}
-                        ></div>
+                      <div className="text-lg font-semibold text-green-700 mb-2">
+                        {result.leadingParty}
                       </div>
                     </div>
-                  ))}
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-gray-700 font-medium">Status</span>
+                        <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+                          result.status === "Result Declared"
+                            ? "bg-green-100 text-green-800"
+                            : "bg-orange-100 text-orange-800"
+                        }`}>
+                          {result.status}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Runner-up Card */}
+                  <div key={`runner-${index}`} className="bg-gradient-to-br from-gray-50 to-slate-50 border-2 border-gray-300 rounded-xl p-6">
+                    <div className="flex items-center mb-4">
+                      <svg
+                        className="w-8 h-8 text-gray-600 mr-3"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        aria-hidden="true"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <h2 className="text-2xl font-bold text-gray-700">Runner-up</h2>
+                    </div>
+                    <div className="mb-4">
+                      <div className="text-2xl font-bold text-gray-900 mb-1">
+                        {toTitleCase(result.trailingCandidate)}
+                      </div>
+                      <div className="text-lg font-semibold text-gray-700 mb-2">
+                        {result.trailingParty}
+                      </div>
+                    </div>
+                  </div>
+                </>
+              ))}
+            </section>
+          )}
+
+          {/* Victory Margin */}
+          {matchedResult.length > 0 && matchedResult[0].margin && (
+            <section className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
+              <h2 className="text-xl font-bold mb-3">Victory Margin</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <div className="text-sm text-gray-600 mb-1">Votes</div>
+                  <div className="text-3xl font-bold text-blue-600">
+                    {typeof matchedResult[0].margin === "number"
+                      ? matchedResult[0].margin.toLocaleString()
+                      : matchedResult[0].margin}
+                  </div>
+                </div>
+              </div>
+            </section>
+          )}
+        </article>
+
+        {/* Vote Share Details */}
+        {voteShareData.length > 0 && (
+          <section className="mb-8">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+              <div className="bg-gradient-to-r from-gray-800 to-gray-700 text-white px-8 py-6">
+                <h2 className="text-2xl font-bold">All Candidates Performance</h2>
+              </div>
+              <div className="p-8">
+                <div className="overflow-x-auto">
+                  <table className="min-w-full divide-y divide-gray-200">
+                    <thead className="bg-gray-50">
+                      <tr>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                          Candidate
+                        </th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+                          Party
+                        </th>
+                        <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">
+                          Votes
+                        </th>
+                        <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">
+                          Vote %
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody className="bg-white divide-y divide-gray-200">
+                      {voteShareData.map((candidate, idx) => (
+                        <tr
+                          key={idx}
+                          className={
+                            idx === 0
+                              ? "bg-green-50"
+                              : idx === 1
+                              ? "bg-gray-50"
+                              : ""
+                          }
+                        >
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            <div className="font-semibold text-gray-900">{toTitleCase(candidate.name)}</div>
+                            {candidate.lead && (
+                              <div className="text-sm text-green-600 font-medium">Lead: {candidate.lead}</div>
+                            )}
+                          </td>
+                          <td className="px-6 py-4">
+                            <div className="text-sm text-gray-900">{candidate.party}</div>
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-right font-medium text-gray-900">
+                            {candidate.votes}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-right font-bold text-blue-600">
+                            {candidate.voteShare}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+
+                {/* Vote Share Visualization */}
+                <div className="mt-8">
+                  <h3 className="text-lg font-bold mb-4 text-gray-800">Vote Share Distribution</h3>
+                  <div className="space-y-4">
+                    {voteShareData.slice(0, 10).map((candidate, idx) => (
+                      <div key={idx}>
+                        <div className="flex justify-between items-center mb-2">
+                          <div className="flex-1">
+                            <span className="font-semibold">{toTitleCase(candidate.name)}</span>
+                            <span className="text-sm text-gray-600 ml-2">({candidate.party.split(' ').slice(0, 3).join(' ')})</span>
+                          </div>
+                          <span className="font-bold text-lg ml-4">{candidate.voteShare}</span>
+                        </div>
+                        <div className="w-full bg-gray-200 rounded-full h-3">
+                          <div
+                            className={`h-3 rounded-full ${
+                              idx === 0
+                                ? "bg-green-600"
+                                : idx === 1
+                                ? "bg-gray-500"
+                                : "bg-blue-400"
+                            }`}
+                            style={{ width: candidate.voteShare }}
+                          ></div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-      )}
-    </main>
+          </section>
+        )}
+      </main>
     </>
   );
 };
