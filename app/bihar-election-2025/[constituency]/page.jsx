@@ -58,9 +58,9 @@ export async function generateMetadata({ params }) {
       siteName: "India Elects",
       images: [
         {
-          url: "https://indiaelects.vercel.app/logo.png",
-          width: 800,
-          height: 600,
+          url: `https://indiaelects.vercel.app/api/og?title=${constituencyName}%20Constituency%20Result%202025`,
+          width: 1200,
+          height: 630,
           alt: "India Elects Logo",
         },
       ],
