@@ -151,7 +151,7 @@ export default async function ConstituencyPage({ params }) {
     const res = await fetch(
       "https://www.thehindu.com/infographics/2025-11-16/bihar-assembly-election-results-2025/assets/data/2025.json",
       {
-        next: { revalidate: 3600 },
+        next: { revalidate: 36600 },
       }
     );
 

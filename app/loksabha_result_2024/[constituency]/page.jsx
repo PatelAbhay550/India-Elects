@@ -195,7 +195,7 @@ const page = async ({ params }) => {
     try {
       const voteShareRes = await fetch(
         `https://www.oneindia.com/elections-common/index.php?page=loksabhaConstituencyDetails&action=getCandidatesResultsAjax&year=2024&pc_id=${matchedResult[0].constNo}`,
-        { next: { revalidate: 36060 } }
+        { next: { revalidate: 36600 } }
       );
       if (voteShareRes.ok) {
         const html = await voteShareRes.text();

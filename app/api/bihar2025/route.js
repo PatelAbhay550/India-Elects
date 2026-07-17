@@ -5,7 +5,7 @@ export async function GET() {
     const res = await fetch(
       "https://www.thehindu.com/infographics/2025-11-16/bihar-assembly-election-results-2025/assets/data/2025.json",
       {
-        next: { revalidate: 3600 }, // Cache for 1 hour
+        next: { revalidate: 36600 }, // Cache for 1 hour
       }
     );
 
