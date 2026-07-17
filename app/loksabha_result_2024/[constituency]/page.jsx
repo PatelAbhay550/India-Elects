@@ -158,7 +158,7 @@ const page = async ({ params }) => {
 
   try {
     const res = await fetch("http://indiaelects.vercel.app/api/e2024", {
-      next: { revalidate: 3600 }, // Revalidate cache every hour
+      next: { revalidate: 36600 }, // Revalidate cache every hour
     });
     if (!res.ok) {
       throw new Error("Failed to fetch data");
@@ -195,7 +195,7 @@ const page = async ({ params }) => {
     try {
       const voteShareRes = await fetch(
         `https://www.oneindia.com/elections-common/index.php?page=loksabhaConstituencyDetails&action=getCandidatesResultsAjax&year=2024&pc_id=${matchedResult[0].constNo}`,
-        { next: { revalidate: 3600 } }
+        { next: { revalidate: 36600 } }
       );
       if (voteShareRes.ok) {
         const html = await voteShareRes.text();

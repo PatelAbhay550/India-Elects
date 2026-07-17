@@ -95,7 +95,7 @@ const ChiefMinisters = async () => {
     const res = await fetch(
       "https://xanimewatcher.vercel.app/ChiefMinisters.json",
       {
-        next: { revalidate: 3600 }, // Revalidate cache every hour
+        next: { revalidate: 36600 }, // Revalidate cache every hour
       }
     );
     if (!res.ok) {

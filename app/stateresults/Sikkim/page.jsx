@@ -80,7 +80,7 @@ const Sikkim = async () => {
 
   try {
     const res = await fetch("http://indiaelects.vercel.app/api/sikkimresult", {
-      next: { revalidate: 3600 }, // Revalidate cache every hour
+      next: { revalidate: 36600 }, // Revalidate cache every hour
     });
     if (!res.ok) {
       throw new Error("Failed to fetch data");

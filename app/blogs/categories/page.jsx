@@ -52,7 +52,7 @@ export const metadata = {
 async function getCategoriesData() {
   try {
     const res = await fetch("https://xanimewatcher.vercel.app/blogs.json", {
-      next: { revalidate: 3600 }
+      next: { revalidate: 36600 }
     });
     if (!res.ok) {
       throw new Error("Failed to fetch data");
