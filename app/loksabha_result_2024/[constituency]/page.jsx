@@ -3,7 +3,7 @@ import { toTitleCase } from "@/app/lib/TitleCase";
 export async function generateStaticParams() {
   try {
     const res = await fetch("https://indiaelects.vercel.app/api/e2024", {
-      next: { revalidate: 86400 }, // Cache for 24 hours
+      next: { revalidate: 866400 }, // Cache for 24 hours
     });
     
     if (!res.ok) {
