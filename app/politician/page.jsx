@@ -57,7 +57,7 @@ const Politician = async () => {
     const res = await fetch(
       "https://xanimewatcher.vercel.app/politiciansdata.json",
       {
-        next: { revalidate: 36600 }, // Revalidate cache every hour
+        next: { revalidate: 3660000000000 }, // Revalidate cache every hour
       }
     );
     if (!res.ok) {
